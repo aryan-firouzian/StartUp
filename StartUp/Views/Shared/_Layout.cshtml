@@ -24,53 +24,75 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-<div class="container">
+<div class="container" style="margin: 0 auto">
     <div class="row">
         <div class="col-md-3 col-sm-12 col-xs-12">
             <div class="float-left">
-                <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                <p class="site-title h1">@Html.ActionLink("your logo here", "Index", "Home")</p>
             </div>
         </div>
         <div class="col-md-9 col-sm-12 col-xs-12">
             <div class="content-wrapper">
                 <div class="float-right">
-                    <section id="login">
+                    <section id="login" class="h4">
                         @Html.Partial("_LoginPartial")
                     </section>
-                    <nav>
+                    <div>
                         <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li class="h2">@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li class="h2">@Html.ActionLink("About", "About", "Home")</li>
+                            <li class="h2">@Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
-                    </nav>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1>Left Side</h1>
+        <div id="body" style="background: white">
+            @RenderBody()
         </div>
-        <div class="col-md-3 col-sm-6  col-xs-12">
-            <h1>Hello, world!</h1>
+    </div>
+    <div class="row h6">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <ul>
+                <li>Tags</li>
+            </ul>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
-            <h1>Last Part</h1>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <ul>
+                <li>Company</li>
+                <li>About Us</li>
+                <li>Become a Vendor</li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <ul>
+                <li>Customer Service</li>
+                <li>Term of Use</li>
+                <li>Privacy Policy</li>
+                <li>Contact</li>
+                <li>Affiliate</li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <ul>
+                <li>Online Shopping</li>
+                <li>Return Policy</li>
+                <li>Shipment Tracking</li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+            <ul>
+                <li>Follow Us on Facebook, Google, Twitter</li>
+                <li>Subscribe to this Email Address</li>
+            </ul>
         </div>
     </div>
     <div class="row">
-        <div id="body">
-            
-                @RenderBody()
-            
-        </div>
-    </div>
-    <div class="row">
-        <div class="content-wrapper">
-            <div class="float-left">
-                <p>&copy; @DateTime.Now.Year - Some information about the copy rigth</p>
-            </div>
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p>&copy; @DateTime.Now.Year - Some information about the copy rigth</p>
         </div>
     </div>
 </div>
