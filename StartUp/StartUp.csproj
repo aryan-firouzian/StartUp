@@ -245,6 +245,9 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\1.jpg" />
+    <Content Include="Images\10.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\12.jpg" />
     <Content Include="Images\2.jpg" />
     <Content Include="Images\3.jpg" />
     <Content Include="Images\4.jpg" />
@@ -252,6 +255,14 @@
     <Content Include="Images\6.jpg" />
     <Content Include="Images\7.jpg" />
     <Content Include="Images\8.jpg" />
+    <Content Include="Images\800 %282%29.jpg" />
+    <Content Include="Images\800 %283%29.jpg" />
+    <Content Include="Images\800 %284%29.jpg" />
+    <Content Include="Images\800 %285%29.jpg" />
+    <Content Include="Images\800 %286%29.jpg" />
+    <Content Include="Images\800 %287%29.jpg" />
+    <Content Include="Images\9.jpg" />
+    <Content Include="Images\900.jpg" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
