@@ -91,3 +91,5 @@ D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\bin\DotNetOpenAuth.OpenId.RelyingP
 D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\obj\Debug\StartUp.csprojResolveAssemblyReference.cache
 D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\obj\Debug\StartUp.dll
 D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\obj\Debug\StartUp.pdb
+D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\bin\EntityFramework.SqlServer.dll
+D:\MyDropBox\Dropbox\Projects\StartUp\StartUp\bin\EntityFramework.SqlServer.xml
