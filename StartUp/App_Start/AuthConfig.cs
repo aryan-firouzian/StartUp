@@ -11,22 +11,13 @@ namespace StartUp
     {
         public static void RegisterAuth()
         {
-            // To let users of this site log in using their accounts from other sites such as Microsoft, Facebook, and Twitter,
-            // you must update this site. For more information visit http://go.microsoft.com/fwlink/?LinkID=252166
+            OAuthWebSecurity.RegisterTwitterClient(
+                consumerKey: "SadlLsy0oMGIzSizAWoapK9FH",
+                consumerSecret: "sAP9vqo1WQ4IMRnuZHpFoosxAeXR90xddPpAznY3tyuqY8Zcxv");
 
-            //OAuthWebSecurity.RegisterMicrosoftClient(
-            //    clientId: "",
-            //    clientSecret: "");
-
-            //OAuthWebSecurity.RegisterTwitterClient(
-            //    consumerKey: "",
-            //    consumerSecret: "");
-
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
-
-            //OAuthWebSecurity.RegisterGoogleClient();
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "522456357881007",
+                appSecret: "2c1a55ed9eef694f811ad6975cf48eff");
         }
     }
 }
