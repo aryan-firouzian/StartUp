@@ -298,6 +298,8 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>KeplerModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <Content Include="Images\Logo.png" />
+    <Content Include="Images\up.png" />
     <Content Include="Models\KeplerModel.edmx.diagram">
       <DependentUpon>KeplerModel.edmx</DependentUpon>
     </Content>
