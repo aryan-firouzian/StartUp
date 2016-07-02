@@ -1,4 +1,15 @@
-﻿html {
+﻿/* my style
+----------------------------------------------------------*/
+
+.my-thumb {
+    margin-top: 10px
+}
+
+
+/* main components
+----------------------------------------------------------*/
+
+html {
     background-color: #e2e2e2;
     margin: 0;
     padding: 0;

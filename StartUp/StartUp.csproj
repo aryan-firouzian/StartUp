@@ -219,6 +219,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\Kepler.mdf" />
+    <Content Include="App_Data\Kepler_log.ldf">
+      <DependentUpon>Kepler.mdf</DependentUpon>
+    </Content>
     <Content Include="bootstrap\css\bootstrap-theme.css" />
     <Content Include="bootstrap\css\bootstrap-theme.min.css" />
     <Content Include="bootstrap\css\bootstrap.css" />
